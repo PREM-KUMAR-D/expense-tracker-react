@@ -18,7 +18,7 @@ function App() {
       return [expenseData, ...prev]
     });
     
-    console.log("Expenses after appending : ",expenses);
+    
   }
 
 
