@@ -25,14 +25,14 @@ const Chart =(props)=>{
     ]
 
 
-    // console.log("ChartData" + JSON.stringify(chartData) + " \n expensesOnly " + expensesOnly);
+    
     
 
     for(let expense of props.chartExpenses){
         chartData[expense.date.getMonth()].expenseVal += expense.price;
     }
 
-    // console.log("ChartData" + JSON.stringify(chartData) + " \n expensesOnly " + expensesOnly);
+    
 
     return <div className="chart">
         {
